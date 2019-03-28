@@ -1,11 +1,15 @@
-package dummy.interpreter.impl;
+package dummy.interpreter;
 
 import dummy.Statement;
 import dummy.impl.ANDExpression;
 import dummy.impl.BooleanExpression;
 import dummy.impl.IfStatement;
 import dummy.impl.Output;
-import dummy.interpreter.Processor;
+import dummy.interpreter.processors.ANDProcessor;
+import dummy.interpreter.processors.BooleanProcessor;
+import dummy.interpreter.processors.IfProcessor;
+import dummy.interpreter.processors.OutputProcessor;
+import dummy.interpreter.processors.Processor;
 
 public class ProcessorFactory {
 	public static Processor<?> createProcessor(Statement s) {

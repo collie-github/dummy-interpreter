@@ -1,9 +1,9 @@
-package dummy.interpreter.impl;
+package dummy.interpreter.processors;
 
 import dummy.Expression;
 import dummy.Statement;
 import dummy.impl.ANDExpression;
-import dummy.interpreter.Processor;
+import dummy.interpreter.ProcessorFactory;
 
 public class ANDProcessor implements Processor<Boolean> {
 

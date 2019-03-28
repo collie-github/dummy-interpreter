@@ -1,4 +1,4 @@
-package dummy.interpreter.impl;
+package dummy.interpreter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,6 +28,5 @@ public class Demo {
 		Program prog = new Program();
 		prog.addStatement(ifStatement);
 		return prog;
-		
 	}
 }

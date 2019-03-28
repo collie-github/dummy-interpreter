@@ -1,8 +1,7 @@
-package dummy.interpreter.impl;
+package dummy.interpreter.processors;
 
 import dummy.Statement;
 import dummy.impl.BooleanExpression;
-import dummy.interpreter.Processor;
 
 public class BooleanProcessor implements Processor<Boolean> {
 

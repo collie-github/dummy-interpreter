@@ -1,4 +1,4 @@
-package dummy.interpreter.impl;
+package dummy.interpreter;
 
 import java.util.List;
 

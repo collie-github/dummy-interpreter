@@ -1,11 +1,12 @@
-package dummy.interpreter.impl;
+package dummy.interpreter.processors;
 
 import java.util.List;
 
 import dummy.Expression;
 import dummy.Statement;
 import dummy.impl.IfStatement;
-import dummy.interpreter.Processor;
+import dummy.interpreter.Interpreter;
+import dummy.interpreter.ProcessorFactory;
 
 public class IfProcessor implements Processor<Void> {
 

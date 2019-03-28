@@ -1,4 +1,4 @@
-package dummy.interpreter;
+package dummy.interpreter.processors;
 
 import dummy.Statement;
 
