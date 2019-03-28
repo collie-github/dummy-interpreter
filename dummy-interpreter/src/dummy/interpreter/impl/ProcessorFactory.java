@@ -1,11 +1,10 @@
 package dummy.interpreter.impl;
 
-import java.util.List;
-
 import dummy.Statement;
 import dummy.impl.ANDExpression;
 import dummy.impl.BooleanExpression;
 import dummy.impl.IfStatement;
+import dummy.impl.Output;
 import dummy.interpreter.Processor;
 
 public class ProcessorFactory {
@@ -16,6 +15,8 @@ public class ProcessorFactory {
 			return new BooleanProcessor();
 		} else if(s instanceof IfStatement) {
 			return new IfProcessor();
+		} else if(s instanceof Output) {
+			return new OutputProcessor();
 		} else return null;
 	}
 }
