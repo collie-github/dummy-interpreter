@@ -15,7 +15,17 @@ public class Demo {
 		Interpreter interpreter = new Interpreter();
 		interpreter.interpret(prog);
 	}
-	
+	/**
+	 * Creates a "program" like
+	 * 
+	 * demo() {
+	 *     if((true && true) && true) {
+	 *         System.out.println("IfStatement was evaluated to TRUE and THEN is being processed...");
+	 *     } else {
+	 *     }
+	 * }
+	 *
+	 */
 	private static Program createDemoProgram() {
 		BooleanExpression bTrue = new BooleanExpression(true);
 		BooleanExpression bTrue2 = new BooleanExpression(true);

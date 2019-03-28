@@ -11,6 +11,9 @@ import dummy.interpreter.processors.IfProcessor;
 import dummy.interpreter.processors.OutputProcessor;
 import dummy.interpreter.processors.Processor;
 
+/**
+ * Chooses a processor for any given Statement
+ */
 public class ProcessorFactory {
 	public static Processor<?> createProcessor(Statement s) {
 		if(s instanceof ANDExpression) {
