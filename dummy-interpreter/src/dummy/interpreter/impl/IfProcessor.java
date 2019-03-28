@@ -4,10 +4,10 @@ import dummy.Statement;
 import dummy.impl.IfStatement;
 import dummy.interpreter.Processor;
 
-public class IfProcessor implements Processor<IfStatement> {
+public class IfProcessor implements Processor<Void> {
 
 	@Override
-	public IfStatement process(Statement s) {
+	public Void process(Statement s) {
 			
 		return null;
 	}
