@@ -1,9 +1,9 @@
-package dummy.impl;
+package dummy.structure.impl;
 
 import java.util.List;
 
-import dummy.Expression;
-import dummy.Statement;
+import dummy.structure.Expression;
+import dummy.structure.Statement;
 
 public class IfStatement implements Statement {
 	private Expression condition;

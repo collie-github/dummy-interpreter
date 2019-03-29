@@ -1,7 +1,7 @@
 package dummy.interpreter.processors;
 
-import dummy.Statement;
-import dummy.impl.Output;
+import dummy.structure.Statement;
+import dummy.structure.impl.Output;
 
 public class OutputProcessor implements Processor<Void> {
 

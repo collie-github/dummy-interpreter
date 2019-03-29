@@ -1,6 +1,6 @@
-package dummy.impl;
+package dummy.structure.impl;
 
-import dummy.Expression;
+import dummy.structure.Expression;
 
 public class BooleanExpression implements Expression {
 	private boolean value;

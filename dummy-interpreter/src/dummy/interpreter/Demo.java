@@ -3,11 +3,11 @@ package dummy.interpreter;
 import java.util.ArrayList;
 import java.util.List;
 
-import dummy.Statement;
-import dummy.impl.ANDExpression;
-import dummy.impl.BooleanExpression;
-import dummy.impl.IfStatement;
-import dummy.impl.Output;
+import dummy.structure.Statement;
+import dummy.structure.impl.ANDExpression;
+import dummy.structure.impl.BooleanExpression;
+import dummy.structure.impl.IfStatement;
+import dummy.structure.impl.Output;
 
 public class Demo {
 	public static void main(String[] args) {

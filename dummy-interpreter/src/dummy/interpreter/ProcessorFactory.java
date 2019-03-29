@@ -1,15 +1,15 @@
 package dummy.interpreter;
 
-import dummy.Statement;
-import dummy.impl.ANDExpression;
-import dummy.impl.BooleanExpression;
-import dummy.impl.IfStatement;
-import dummy.impl.Output;
 import dummy.interpreter.processors.ANDProcessor;
 import dummy.interpreter.processors.BooleanProcessor;
 import dummy.interpreter.processors.IfProcessor;
 import dummy.interpreter.processors.OutputProcessor;
 import dummy.interpreter.processors.Processor;
+import dummy.structure.Statement;
+import dummy.structure.impl.ANDExpression;
+import dummy.structure.impl.BooleanExpression;
+import dummy.structure.impl.IfStatement;
+import dummy.structure.impl.Output;
 
 /**
  * Chooses a processor for any given Statement

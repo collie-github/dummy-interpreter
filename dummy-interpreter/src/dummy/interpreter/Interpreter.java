@@ -2,7 +2,7 @@ package dummy.interpreter;
 
 import java.util.List;
 
-import dummy.Statement;
+import dummy.structure.Statement;
 
 public class Interpreter {
 	

@@ -1,4 +1,4 @@
-package dummy;
+package dummy.structure;
 
 public interface Statement {
 

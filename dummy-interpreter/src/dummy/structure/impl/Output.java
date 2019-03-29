@@ -1,6 +1,6 @@
-package dummy.impl;
+package dummy.structure.impl;
 
-import dummy.Statement;
+import dummy.structure.Statement;
 
 public class Output implements Statement {
 	private String text; 

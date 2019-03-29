@@ -3,7 +3,7 @@ package dummy.interpreter;
 import java.util.ArrayList;
 import java.util.List;
 
-import dummy.Statement;
+import dummy.structure.Statement;
 
 public class Program {
 	private List<Statement> statements;

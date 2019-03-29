@@ -1,7 +1,7 @@
 package dummy.interpreter.processors;
 
-import dummy.Statement;
-import dummy.impl.BooleanExpression;
+import dummy.structure.Statement;
+import dummy.structure.impl.BooleanExpression;
 
 public class BooleanProcessor implements Processor<Boolean> {
 
